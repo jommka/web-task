@@ -1,6 +1,4 @@
-import React, {useEffect, useState} from 'react';
-import axios from "axios";
-import useFileDownloader from "../../hooks/useFileDownloader";
+import React, {useState} from 'react';
 import FileDownloaderContext from "../context/FileDownloaderContext";
 
 

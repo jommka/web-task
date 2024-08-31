@@ -4,8 +4,6 @@ require('dotenv').config()
 const express = require('express');
 const fs = require('fs');
 const axios = require('axios');
-const cheerio = require('cheerio');
-const exec = require('exec');
 const cors = require('cors');
 const path = require('path');
 const { spawn } = require('child_process');
